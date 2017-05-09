@@ -1,0 +1,188 @@
+body {background-color: #e7e7e7}
+
+@font-face {
+    font-family: 'Dosis Medium';
+    font-weight: normal;
+    src: url("Dosis-Medium.ttf");
+}
+@font-face {
+    font-family: 'Dosis Light';
+    font-weight: lighter;
+    src: url("Dosis-Medium.ttf");
+}
+@font-face {
+    font-family: 'Dosis Bold';
+    font-weight: bold;
+    src: url('Dosis-Bold.ttf');
+}
+
+#Logo {
+    display: block;
+    margin: auto;
+    padding: 5px;
+    width: 40%;      /*Taille du logo*/
+}
+
+
+.Onglets {
+    /*margin: auto;
+    width: 50%;*/
+    text-align: center;
+}
+
+.btn-1 {
+    position: relative;
+    background-color:#3f95ad;
+    border: 0 solid;
+    width: 200px;
+    height: 70px;
+    /*margin-left: 26%;*/
+    border-radius: 8px;
+    font: icon;
+    font-weight: bold;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: #e7e7e7;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-1:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    /*outline-color: #e7e7e7;
+    outline-offset: 15px;*/
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.btn-2 {
+    vertical-align: middle;
+    background-color: #3f95ad;
+    border: 0 solid;
+    width: 200px;
+    height: 70px;
+    font: icon;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: #e7e7e7;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-2:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    /*outline-color: rgba(255, 255, 255, 0);*/
+    /*outline-offset: px;*/
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.btn-3 {
+    position: relative;
+    background-color: #3f95ad;
+    border: 0 solid;
+    width: 200px;
+    height: 70px;
+    font: icon;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: #e7e7e7;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.btn-3:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    /*outline-color: rgba(255, 255, 255, 0);
+    outline-offset: 15px;*/
+    text-shadow: 1px 1px 2px #427388;
+}
+
+.TitrePiloter {
+    font-family: 'Dosis Bold';
+    padding-left: 5px;
+    border-bottom: 8px solid #3f95ad;
+    background-color: #C0C0C0;
+}
+
+.btn-deconnexion {
+    position: absolute;
+    background-color: #a0a0a0;
+    border: 0 solid;
+    width: 200px;
+    height: 70px;
+    margin-left: 85%;
+    margin-top: 2%;
+    border-radius: 8px;
+    font: icon;
+    font-weight: bold;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, 0);
+    outline: 1px solid;
+    outline-color: #e7e7e7;
+    outline-offset: 0px;
+    text-shadow: none;
+    transition: all 1250ms cubic-bezier(0.19, 1, 0.22, 1);
+}
+.btn-deconnexion:hover {
+    border: 1px solid;
+    box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+    /*outline-color: #e7e7e7;
+    outline-offset: 15px;*/
+    text-shadow: 1px 1px 2px #427388;
+}
+.CorpsNews {
+    font-family: 'Dosis Light';
+    padding-top: 10px;
+}
+
+
+.luminosité {
+     position: relative;
+     display: block;
+     width: 10%;
+
+ }
+.humidité {
+    position: relative;
+    display: block;
+    width: 10%;
+    align: 
+}
+.température {
+    position: relative;
+    display: block;
+    width: 10%;
+}
+.onoff {
+    position: relative;
+    display: block;
+    width: 10%;
+}
+.stat {
+    position: relative;
+    display: block;
+    width: 10%;
+}
+.modifier {
+    position: relative;
+    display: block;
+    width: 10%;
+}
+.SOS {
+    position: relative;
+    display: block;
+    width: 10%;
+}
+.BandeauBas {
+    word-spacing: 80px;
+    border-top: solid #3f95ad;
+    text-align: center;
+}
