@@ -3,27 +3,27 @@ body {background-color: #e7e7e7}
 @font-face {
     font-family: 'Dosis Medium';
     font-weight: normal;
-    src: url("Dosis-Medium.ttf");
+    src: url("polices/Dosis-Medium.ttf");
 }
 @font-face {
     font-family: 'Dosis Light';
     font-weight: lighter;
-    src: url("Dosis-Medium.ttf");
+    src: url("polices/Dosis-Medium.ttf");
 }
 @font-face {
     font-family: 'Dosis Bold';
     font-weight: bold;
-    src: url('Dosis-Bold.ttf');
+    src: url('polices/Dosis-Bold.ttf');
 }
 @font-face{
     font-family:'BvdStDenis';
     font-weight:normal;
-    src:url('Boulevard Saint Denis.ttf')
+    src:url('polices/Boulevard Saint Denis.ttf')
 }
 @font-face{
     font-family:'BvdStDenisLight';
     font-weight:normal;
-    src:url('Boulevard Saint Denis Light.ttf')
+    src:url('polices/Boulevard Saint Denis Light.ttf')
 }
 
 #Logo {
