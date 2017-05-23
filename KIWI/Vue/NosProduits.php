@@ -46,7 +46,9 @@
 </div>
 
 <div class="BandeauBas">
-    <p class="LiensBas"><a href="https://fr.wikipedia.org/wiki/Foire_aux_questions" style="text-decoration: none">FAQ</a> <a href="https://fr.wikipedia.org/wiki/Carnet_d%27adresses" style="text-decoration: none">Contact</a> <a href="https://fr.wikipedia.org/wiki/Steve_Jobs" style="text-decoration: none">Jobs</a></p>
+    <p class="LiensBas"><a href="https://fr.wikipedia.org/wiki/Foire_aux_questions" style="text-decoration: none">FAQ</a>
+        <a href="../Vue/Contacts.php" style="text-decoration: none">Contact</a>
+        <a href="https://fr.wikipedia.org/wiki/Steve_Jobs" style="text-decoration: none">Jobs</a></p>
     <a href="https://facebook.com" style="text-decoration: none">   <img src="../Image/facebook.png" id="LogoFB" /></a> <a href="https://twitter.com" style="text-decoration: none">  <img src="../Image/twitterbird.png" id="LogoTwi"/></a>
 </div>
 </body>
