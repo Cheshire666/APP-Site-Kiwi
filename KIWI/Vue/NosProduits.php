@@ -43,6 +43,41 @@
 </div>
 <div class="Corps">
 
+    <form method="post" action="../Controleur/creation.php">
+
+        <p>
+            <label>Identifiant de la pièce:</label><br>
+                <input type="text" name="id_piece" id="id_piece"><br>
+
+            <label>Choix des pièces:</label><br>
+            <select name="choix_piece">
+                <option value="salon">Salon</option>
+                <option value="cuisine">Cuisine</option>
+                <option value="chambre">Chambre</option>
+                <option value="salle de bain">Salle de bain</option>
+                <option value="toilettes">Toilette</option>
+            </select><br>
+
+            <label>Type de pièce:</label><br>
+            <input type="text" name="type" id="type"><br>
+
+            <label>Superficie de la pièce:</label><br>
+            <input type="text" name="superficie" id="superficie"><br>
+
+            <label>Nombre de capteur:</label><br>
+            <input type="text" name="nb_capteur" id="nb_capteur"><br>
+
+            <label>Identifiant de la maison:</label><br>
+            <input type="text" name="id_maison" id="id_maison"><br>
+
+            <input type="submit" value="Valider"/><br>
+        </p>
+
+    </form>
+
+
+
+
 </div>
 
 <div class="BandeauBas">
