@@ -34,7 +34,7 @@
 
         ?>
 
-        <a  href="../Vue/NosProduits.php"><button type="button" class="btn-3">Nos produits</button></a>
+        <a  href="Creer.php"><button type="button" class="btn-3">Création</button></a>
     </div>
 </head>
 <body>
