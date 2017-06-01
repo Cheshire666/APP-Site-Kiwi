@@ -9,27 +9,21 @@ if(!empty($_POST['pseudo']) && !empty($_POST['mdp'])){ // L'utilisateur a rempli
     $resultc = mdp($db,$nom);
     $resulta = mdpadmin($db,$nom);
 
-    if(md5($_POST['mdp'])!= $resultc['mot_de_passe']){ // Le mot de passe entré ne correspond pas à celui stocké dans la base de données client
+    if(md5($_POST['mdp'])!= $resultc['mot_de_passe'] && md5($_POST['mdp'])!= $resulta['mot_de_passe']){ // Le mot de passe entré ne correspond pas à celui stocké dans la base de données client
         $erreur = "Nom ou mot de passe client incorrect";
-        echo $erreur;
-        include '../Vue/PageAccueil.php';
-    }
-
-    elseif(md5($_POST['mdp'])!= $resulta['mot_de_passe']) { //Mauvais mdp version admin
-        $erreur = "Nom ou mot de passe admin incorrect";
         echo $erreur;
         include '../Vue/PageAccueil.php';
     }
 
     elseif (md5($_POST['mdp']) == $resulta['mot_de_passe']) {     //L'utilisateur est un admin
         $_SESSION = $resulta;
-        echo "Bienvenue M.".$_SESSION['nom'];
+        echo "Bienvenue M./Mme. ".$_SESSION['nom'];
         include '../Vue/admin.php';
     }
 
     else { // mot de passe client correct, on affiche la page d'accueil
         $_SESSION = $resultc;
-        echo "Bienvenue M.".$_SESSION['nom'];
+        echo "Bienvenue M./Mme. ".$_SESSION['nom'];
         include '../Vue/PageAccueil.php';
     }
 }
