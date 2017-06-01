@@ -10,6 +10,6 @@
     <div class="Onglets">
         <a  href="../Vue/QuiSommesNous.php"><button type="button" class="btn-1">Qui sommes-nous ?</button></a>
         <a  href="../Vue/piloter.php"><button type="button" class="btn-2">Piloter</button></a>
-        <a  href="../Vue/creation.php"><button type="button" class="btn-3">Création</button></a>
+        <a  href="Creer.php"><button type="button" class="btn-3">Création</button></a>
     </div>
 </html>
