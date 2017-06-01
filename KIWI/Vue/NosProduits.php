@@ -26,10 +26,12 @@
 
         if(!isset($_SESSION)) {
             echo '<button type="button" class="btn-2">Piloter</button></a>';
+            echo '<button type="button" class="btn-3">Création</button></a>'
         }
 
         else {
             echo '<a  href="../Vue/piloter.php"><button type="button" class="btn-2">Piloter</button></a>';
+            echo '<a  href="../Vue/creation.php"><button type="button" class="btn-2">Piloter</button></a>';
         }
 
         ?>
@@ -43,7 +45,7 @@
 </div>
 <div class="Corps">
 
-    <form method="post" action="../Controleur/creation.php">
+    <form method="post" action="../Controleur/cibleCreation.php">
 
         <p>
             <label>Identifiant de la pièce:</label><br>

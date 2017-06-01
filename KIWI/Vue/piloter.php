@@ -49,13 +49,12 @@
             <figcaption> Modifier </figcaption>
         </figure>
     </a>
-        <input type="submit" name="SOS" /> <figure><img src="../Image/SOS.png" height="120" width="173" class="sos"/>
-            <figcaption> SOS </figcaption>
-        </figure>
+        <input type="image" name="SOS" value="envoyer" src="../Image/SOS.png"/>
     <?php
-    /*if() {
-
-    }*/
+    $compteurSOS = 0;
+    if(isset($_POST['SOS']) AND $_POST['go']=='envoyer') {
+        $compteurSOS +=1;
+    }
     ?>
 
 </div>
