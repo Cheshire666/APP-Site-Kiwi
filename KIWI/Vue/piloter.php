@@ -49,11 +49,14 @@
             <figcaption> Modifier </figcaption>
         </figure>
     </a>
-    <a href="" style="text-decoration: none">
-        <figure><img src="../Image/SOS.png" height="120" width="173" class="sos"/>
+        <input type="submit" name="SOS" /> <figure><img src="../Image/SOS.png" height="120" width="173" class="sos"/>
             <figcaption> SOS </figcaption>
         </figure>
-    </a>
+    <?php
+    /*if() {
+
+    }*/
+    ?>
 
 </div>
 
