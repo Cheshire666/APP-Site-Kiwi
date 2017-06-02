@@ -77,24 +77,9 @@
 
 
 
-
 </div>
 
-<form method="post" action="../Controleur/creation.php">
-    <p>Choix des pièces:</p>
-    <p>
-        <select name="choix pièce">
-            <option value="salon">Salon</option>
-            <option value="cuisine">Cuisine</option>
-            <option value="chambre">Chambre</option>
-            <option value="salle de bain">Salle de bain</option>
-            <option value="toilettes">Toilette</option>
 
-        </select>
-        <input type="submit" value="Valider"/>
-    </p>
-
-</form>
 
 <div class="BandeauBas">
     <p class="LiensBas">
