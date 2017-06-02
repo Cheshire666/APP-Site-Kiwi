@@ -59,12 +59,10 @@
             </select><br>
 
             <label>Type de pièce:</label><br>
-            <select name="choix_piece">
-                <option value="salon">Salon</option>
-                <option value="cuisine">Cuisine</option>
-                <option value="chambre">Chambre</option>
-                <option value="salle de bain">Salle de bain</option>
-                <option value="toilettes">Toilette</option>
+            <select name="type">
+                <option value="petite"> Petite </option>
+                <option value="moyenne">Moyenne </option>
+                <option value="grande"> Grande </option>
             </select><br>
 
             <label>Superficie de la pièce:</label><br>
