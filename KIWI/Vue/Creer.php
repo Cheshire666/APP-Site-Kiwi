@@ -34,7 +34,7 @@
 
         ?>
 
-        <a  href="Creer.php"><button type="button" class="btn-3"> Création</button></a>
+        <a  href="Creer.php"><button type="button" class="btn-3">Création</button></a>
     </div>
 </head>
 <body>
@@ -43,7 +43,7 @@
 </div>
 <div class="Corps">
 
-    <form method="post" action="../Controleur/creation.php">
+    <form method="post" action="../Controleur/cibleCreation.php">
 
         <p>
             <label>Identifiant de la pièce:</label><br>

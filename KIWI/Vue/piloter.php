@@ -55,6 +55,7 @@
     if(isset($_POST['SOS']) AND $_POST['go']=='envoyer') {
         $compteurSOS +=1;
     }
+
     ?>
 
 </div>

@@ -7,3 +7,6 @@
     <?php
     require '../Vue/piloter.php';
     echo '<h1>Nombre de SOS envoyés :</h1>'.$compteurSOS;
+    ?>
+</head>
+</html>

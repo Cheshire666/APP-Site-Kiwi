@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 
@@ -7,12 +10,15 @@
     <title>Kiwi - Administrateur</title>
     <div class="Deconnexion">
         <a  href="../Vue/PageAccueil.php"><button type="button" class="btn-deconnexion">Déconnexion</button></a>
+        <?php
+        session_destroy();
+        ?>
     </div>
     <a href="../Vue/PageAccueil.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
     <div class="Onglets">
         <a  href="../Vue/Formulaire_Inscription.php"><button type="button" class="btn-1">Inscription d'un client</button></a>
         <a  href="../Vue/gestion-site.php"><button type="button" class="btn-2">Gestion du site</button></a>
-        <a  href="../Vue/sos.php"><button type="button" class="btn-3">SOS</button></a>
+        <a  href="../Vue/SOSadmin.php"><button type="button" class="btn-3">SOS</button></a>
     </div>
 </head>
 <body>

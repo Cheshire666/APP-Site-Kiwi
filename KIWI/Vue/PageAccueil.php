@@ -9,6 +9,8 @@
         if(!isset($_SESSION)) {
             echo '<title>Kiwi - Accueil</title>';
             include('non-client.php');
+            echo '<img src="../Image/bandeau.jpg" id="bandeau2">';
+            echo '<img src="../Image/bandeau.jpg" id="bandeau3">';
         }
 
         else {

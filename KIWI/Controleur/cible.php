@@ -16,12 +16,14 @@ if(!empty($_POST['pseudo']) && !empty($_POST['mdp'])){ // L'utilisateur a rempli
     }
 
     elseif (md5($_POST['mdp']) == $resulta['mot_de_passe']) {     //L'utilisateur est un admin
+        session_start();
         $_SESSION = $resulta;
         echo "Bienvenue M./Mme. ".$_SESSION['nom'];
         include '../Vue/admin.php';
     }
 
     else { // mot de passe client correct, on affiche la page d'accueil
+        session_start();
         $_SESSION = $resultc;
         echo "Bienvenue M./Mme. ".$_SESSION['nom'];
         include '../Vue/PageAccueil.php';
