@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Kiwi- Jobs </title>
     <link rel="shortcut icon" type="image/x-icon" href="../Image/kiwi.png"/>
-    <link rel="stylesheet" href="../Style/Jobs.css">
+    <link rel="stylesheet" href="../Style/MentionLegales.css">
     <a href="PageAccueil.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
     <div class="Authentification">
         <form method=post action="../Controleur/cible.php">
@@ -80,7 +80,7 @@
     <p class="LiensBas">
         <a href="FAQ.php" style="text-decoration: none">FAQ</a>
         <a href="Contacts.php" style="text-decoration: none">Contact</a>
-        <a href="MentionLegales.php" style="text-decoration: none">Mention Légales</a></p>
+        <a href="MentionLegales.php" style="text-decoration: none">MentionsLégales</a></p>
     <a href="https://facebook.com" style="text-decoration: none">   <img src="../Image/facebook.png" id="LogoFB" /></a>
     <a href="https://twitter.com" style="text-decoration: none">  <img src="../Image/twitterbird.png" id="LogoTwi"/></a>
 </div>

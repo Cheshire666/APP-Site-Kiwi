@@ -63,7 +63,7 @@
 <div class="BandeauBas">
     <p class="LiensBas"><a href="FAQ.php" style="text-decoration: none">FAQ</a>
         <a href="../Vue/Contacts.php" style="text-decoration: none">Contact</a>
-        <a href="MentionLegales.php" style="text-decoration: none">Mention Légales</a></p>
+        <a href="MentionLegales.php" style="text-decoration: none">MentionsLégales</a></p>
         <a href="https://facebook.com" style="text-decoration: none"><img src="../Image/facebook.png"  id="LogoFB"> </a> <a href="https://twitter.com" style="text-decoration: none"><img src="../Image/twitterbird.png"  id="LogoTwi"> </a>
 </div>
 </body>

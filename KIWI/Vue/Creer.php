@@ -59,7 +59,13 @@
             </select><br>
 
             <label>Type de pièce:</label><br>
-            <input type="text" name="type" id="type"><br>
+            <select name="choix_piece">
+                <option value="salon">Salon</option>
+                <option value="cuisine">Cuisine</option>
+                <option value="chambre">Chambre</option>
+                <option value="salle de bain">Salle de bain</option>
+                <option value="toilettes">Toilette</option>
+            </select><br>
 
             <label>Superficie de la pièce:</label><br>
             <input type="text" name="superficie" id="superficie"><br>
