@@ -1,9 +1,7 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
-
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" href="../Style/PageAccueil.css" type="text/css">
 
         <?php
         if(!isset($_SESSION)) {
@@ -19,6 +17,10 @@
         }
 
         ?>
+
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../Style/PageAccueil.css" type="text/css">
     </head>
 
     <body>
