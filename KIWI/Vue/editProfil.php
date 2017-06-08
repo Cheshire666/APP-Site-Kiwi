@@ -10,7 +10,7 @@ require 'client.php';
     <link rel="stylesheet" href="../Style/editProfil.css" type="text/css">
 </head>
 
-<body>
+<body onLoad="GereControle(document.getElementsByName('header'))">
 
 <?php echo '<h1>Nom : '.$_SESSION['nom']; ?>
 
@@ -21,18 +21,20 @@ require 'client.php';
                 document.getElementById(id).style.visibility = "visible";
             else	document.getElementById(id).style.visibility = "hidden";
         }
+
     </script>
-<body>
 <div id="bouton" onclick="bascule('header');">Modifier mon mot de passe</div>
 
 <div id="header">
-    <form>
+    <form method=post action="../Controleur/modifmdp.php">
         <ul>
             <label>Ancien mot de passe</label>
             <input type="password" name="amdp" id="amdp"><br>
             <label>Nouveau mot de passe</label>
-            <input type="password" name="nmdp" id="nmdp">
+            <input type="password" name="nmdp" id="nmdp"><br>
+            <input type="submit" name="submit" value="Modifier" class="btn">
         </ul>
     </form>
 </div>
+</body>
 
