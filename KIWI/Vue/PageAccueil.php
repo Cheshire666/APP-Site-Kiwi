@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php
+if(isset($_SESSION)) {
+    session_start();
+} ?>
 
 <!DOCTYPE html>
 <html>
@@ -7,8 +10,6 @@
         if(!isset($_SESSION)) {
             echo '<title>Kiwi - Accueil</title>';
             include('non-client.php');
-            echo '<img src="../Image/bandeau.jpg" id="bandeau2">';
-            echo '<img src="../Image/bandeau.jpg" id="bandeau3">';
         }
 
         else {

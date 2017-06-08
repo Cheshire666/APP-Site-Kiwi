@@ -3,11 +3,11 @@
     <head>
         <link rel="stylesheet" href="../Style/piloter.css">
         <div class="Deconnexion">
-            <input type="button" value="Déconnexion" name="bye" class="btn-deconnexion">
+            <a href="../Vue/PageAccueil.php"><button type="button" class="btn-deconnexion">Déconnexion</button></a>
             <p><a href="../Vue/editProfil.php">Mon profil</a></p>
 
         </div>
-        <a href="../Vue/PageAccueil.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
+        <img src="../Image/Logo_Kiwi.png" id="Logo"/>
 
 
         <div class="Onglets">

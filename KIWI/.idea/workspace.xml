@@ -2,21 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eee4b17-c652-47d6-a808-5bd7f15a328b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vue/editProfil.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Modele/deconnexion.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Style/editProfil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Controleur/cible.php" afterPath="$PROJECT_DIR$/Controleur/cible.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modele/connexion.php" afterPath="$PROJECT_DIR$/Modele/connexion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/piloter.css" afterPath="$PROJECT_DIR$/Style/piloter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/Contacts.php" afterPath="$PROJECT_DIR$/Vue/Contacts.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/Creer.php" afterPath="$PROJECT_DIR$/Vue/Creer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/FAQ.php" afterPath="$PROJECT_DIR$/Vue/FAQ.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/MentionLegales.php" afterPath="$PROJECT_DIR$/Vue/MentionLegales.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modele/fonction.php" afterPath="$PROJECT_DIR$/Modele/fonction.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/PageAccueil.css" afterPath="$PROJECT_DIR$/Style/PageAccueil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/PageAccueil.php" afterPath="$PROJECT_DIR$/Vue/PageAccueil.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/QuiSommesNous.php" afterPath="$PROJECT_DIR$/Vue/QuiSommesNous.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/SOSadmin.php" afterPath="$PROJECT_DIR$/Vue/SOSadmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/admin.php" afterPath="$PROJECT_DIR$/Vue/admin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/client.php" afterPath="$PROJECT_DIR$/Vue/client.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/piloter.php" afterPath="$PROJECT_DIR$/Vue/piloter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/editProfil.php" afterPath="$PROJECT_DIR$/Vue/editProfil.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/non-client.php" afterPath="$PROJECT_DIR$/Vue/non-client.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,8 +35,8 @@
       <file leaf-file-name="PageAccueil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/PageAccueil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,8 +45,8 @@
       <file leaf-file-name="Creer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/Creer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="230">
+              <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -61,8 +55,8 @@
       <file leaf-file-name="PageAccueil.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Style/PageAccueil.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136">
-              <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+            <state relative-caret-position="411">
+              <caret line="112" column="24" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -71,18 +65,48 @@
       <file leaf-file-name="editProfil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/editProfil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="400">
+              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="client.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="editProfil.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Style/editProfil.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Vue/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="88" lean-forward="true" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
+            <state relative-caret-position="135">
+              <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="non-client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Vue/non-client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="59" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="11" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deconnexion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Modele/deconnexion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -91,7 +115,7 @@
       <file leaf-file-name="piloter.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Style/piloter.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1287">
+            <state relative-caret-position="3195">
               <caret line="213" column="19" lean-forward="false" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
               <folding />
             </state>
@@ -113,24 +137,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Style/PageAccueil.css" />
         <option value="$PROJECT_DIR$/Style/admin.css" />
         <option value="$PROJECT_DIR$/Vue/mentionLegales.php" />
         <option value="$PROJECT_DIR$/Modele/connexion.php" />
         <option value="$PROJECT_DIR$/Controleur/cible.php" />
         <option value="$PROJECT_DIR$/Vue/QuiSommesNous.php" />
-        <option value="$PROJECT_DIR$/Vue/non-client.php" />
         <option value="$PROJECT_DIR$/Vue/admin.php" />
         <option value="$PROJECT_DIR$/Vue/Contacts.php" />
-        <option value="$PROJECT_DIR$/Vue/editProfil.php" />
         <option value="$PROJECT_DIR$/Vue/FAQ.php" />
         <option value="$PROJECT_DIR$/Vue/MentionLegales.php" />
         <option value="$PROJECT_DIR$/Vue/piloter.php" />
         <option value="$PROJECT_DIR$/Vue/SOSadmin.php" />
-        <option value="$PROJECT_DIR$/Vue/PageAccueil.php" />
         <option value="$PROJECT_DIR$/Vue/Creer.php" />
         <option value="$PROJECT_DIR$/Style/piloter.css" />
+        <option value="$PROJECT_DIR$/Modele/fonction.php" />
+        <option value="$PROJECT_DIR$/Modele/utilisateurs.php" />
+        <option value="$PROJECT_DIR$/Modele/deconnexion.php" />
         <option value="$PROJECT_DIR$/Vue/client.php" />
+        <option value="$PROJECT_DIR$/Vue/non-client.php" />
+        <option value="$PROJECT_DIR$/Vue/PageAccueil.php" />
+        <option value="$PROJECT_DIR$/Style/PageAccueil.css" />
+        <option value="$PROJECT_DIR$/Vue/editProfil.php" />
+        <option value="$PROJECT_DIR$/Style/editProfil.css" />
       </list>
     </option>
   </component>
@@ -144,7 +172,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="717" />
+    <option name="height" value="716" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -246,6 +274,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -316,7 +345,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,7 +446,9 @@
       <updated>1496301155128</updated>
       <workItem from="1496301156396" duration="4603000" />
       <workItem from="1496408214872" duration="1434000" />
-      <workItem from="1496739537064" duration="4288000" />
+      <workItem from="1496739537064" duration="5436000" />
+      <workItem from="1496760895385" duration="282000" />
+      <workItem from="1496905838060" duration="4016000" />
     </task>
     <task id="LOCAL-00001" summary="Code de nouveau fonctionnel !">
       <created>1496302323672</created>
@@ -441,21 +471,28 @@
       <option name="project" value="LOCAL" />
       <updated>1496414116209</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Màj du 6/06">
+      <created>1496744748058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1496744748058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10721000" />
+    <option name="totallyTimeSpent" value="16167000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="717" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24861" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.34087238" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -506,16 +543,14 @@
     <MESSAGE value="Code de nouveau fonctionnel !" />
     <MESSAGE value="MentionLegales" />
     <MESSAGE value="Màj du 2/06 2e essai" />
-    <option name="LAST_COMMIT_MESSAGE" value="Màj du 2/06 2e essai" />
+    <MESSAGE value="Màj du 6/06" />
+    <option name="LAST_COMMIT_MESSAGE" value="Màj du 6/06" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../APP-MVC/Vue/non_connecte.php" />
-    <entry file="file://$PROJECT_DIR$/Controleur/connexion.php" />
-    <entry file="file://$PROJECT_DIR$/../APP-MVC/Controleur/connexion.php" />
     <entry file="file://$PROJECT_DIR$/../APP-MVC/Modele/connexion.php" />
     <entry file="file://$PROJECT_DIR$/../APP-MVC/Modele/utilisateurs.php" />
     <entry file="file://$PROJECT_DIR$/Vue/Kiwi-Nos produits.php" />
@@ -582,7 +617,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1496745349000" expanded="true" signature="95:159" ph="SELECT nom,m... client" />
+            <marker date="1496745349000" expanded="true" signature="327:399" ph="SELECT nom,m... administrateur" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -597,14 +635,6 @@
     <entry file="file://$USER_HOME$/Downloads/exercice.sql" />
     <entry file="file://$PROJECT_DIR$/Vue/NosProduits.php" />
     <entry file="file://$PROJECT_DIR$/Vue/admin.php" />
-    <entry file="file://$PROJECT_DIR$/Modele/utilisateurs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Style/admin.css" />
     <entry file="file://$PROJECT_DIR$/Controleur/creation.php" />
     <entry file="file://$PROJECT_DIR$/Modele/insertion.php" />
@@ -660,14 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Controleur/cible.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vue/Contacts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -688,22 +710,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/editProfil.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/non-client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -732,42 +738,101 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Style/piloter.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3195">
+          <caret line="213" column="19" lean-forward="false" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/utilisateurs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding>
+            <marker date="1496745349000" expanded="true" signature="95:159" ph="SELECT nom,m... client" />
+            <marker date="1496745349000" expanded="true" signature="327:399" ph="SELECT nom,m... administrateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Modele/deconnexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" lean-forward="true" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Controleur/cible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" lean-forward="false" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Vue/Creer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        <state relative-caret-position="230">
+          <caret line="44" column="11" lean-forward="true" selection-start-line="44" selection-start-column="11" selection-end-line="44" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Style/PageAccueil.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="126" column="20" lean-forward="false" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        <state relative-caret-position="411">
+          <caret line="112" column="24" lean-forward="true" selection-start-line="112" selection-start-column="24" selection-end-line="112" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Vue/PageAccueil.php">
+    <entry file="file://$PROJECT_DIR$/Modele/fonction.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Style/piloter.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
-          <caret line="213" column="19" lean-forward="false" selection-start-line="213" selection-start-column="19" selection-end-line="213" selection-end-column="19" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Vue/client.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="88" lean-forward="true" selection-start-line="5" selection-start-column="88" selection-end-line="5" selection-end-column="88" />
+        <state relative-caret-position="135">
+          <caret line="9" column="53" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/PageAccueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/non-client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="59" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="11" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vue/editProfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Style/editProfil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-    <a href="PageAccueil.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
+    <img src="../Image/Logo_Kiwi.png" id="Logo"/>
     <div class="Authentification">
         <form method=post action="../Controleur/cible.php">
             <h1>Espace Client</h1>
