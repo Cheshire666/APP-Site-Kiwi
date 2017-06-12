@@ -1,9 +1,9 @@
- -- phpMyAdmin SQL Dump
+-- phpMyAdmin SQL Dump
 -- version 4.6.5.2
 -- https://www.phpmyadmin.net/
 --
 -- Client :  localhost:8889
--- Généré le :  Lun 22 Mai 2017 à 14:12
+-- Généré le :  Lun 12 Juin 2017 à 14:55
 -- Version du serveur :  5.6.35
 -- Version de PHP :  7.0.15
 
@@ -25,7 +25,7 @@ CREATE TABLE `administrateur` (
   `nom` varchar(30) NOT NULL,
   `addresse` varchar(50) NOT NULL,
   `téléphone` int(10) NOT NULL,
-  `mot_de_passe` varchar(10) NOT NULL,
+  `mot_de_passe` varchar(64) NOT NULL,
   `type` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -34,12 +34,12 @@ CREATE TABLE `administrateur` (
 --
 
 INSERT INTO `administrateur` (`id_admin`, `nom`, `addresse`, `téléphone`, `mot_de_passe`, `type`) VALUES
-(1, 'GAGNAGE', '10 rue du Fief', 619494926, 'eliott', 'Joueur de flûte'),
-(2, 'KOOK', '5 boulevard du Var', 659179364, 'khanya', 'Php'),
-(3, 'MERCEREAU', '9 rue du Général', 682319761, 'gregoire', 'scribe'),
-(4, 'NARCY', '78 rue du fruit', 674395207, 'juliette', 'jus'),
-(5, 'PATRIER', '49 rue de Paris', 686160045, 'lucas', 'ambianceur'),
-(6, 'VINCEY', '98 rue du valet', 615100191, 'hugues', 'githuber');
+(1, 'GAGNAGE', '10 rue du Fief', 619494926, '379813f7bc83d31c86729d711ca2defc', 'Joueur de flûte'),
+(2, 'KOOK', '5 boulevard du Var', 659179364, 'f1a0e6d641747116b133a8c422c11034', 'KKK'),
+(3, 'MERCEREAU', '9 rue du Général', 682319761, 'aaba62784f5fe0c2f1a4b8fd8425c91b', 'scribe'),
+(4, 'NARCY', '78 rue du fruit', 674395207, '3fcc080e77f30390c13e7bd27e41430c', 'Jul'),
+(5, 'PATRIER', '49 rue de Paris', 686160045, 'dc53fc4f621c80bdc2fa0329a6123708', 'ambianceur'),
+(6, 'VINCEY', '98 rue du valet', 615100191, 'd4495edd9bccaacc17153814074772b6', 'githuber');
 
 -- --------------------------------------------------------
 
@@ -66,7 +66,7 @@ CREATE TABLE `client` (
   `nom` char(40) NOT NULL,
   `adresse` char(60) NOT NULL,
   `téléphone` int(10) NOT NULL,
-  `mot_de_passe` varchar(32) NOT NULL
+  `mot_de_passe` varchar(64) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
@@ -155,8 +155,25 @@ CREATE TABLE `piece` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
+-- Contenu de la table `piece`
+--
+
+INSERT INTO `piece` (`id_pièce`, `nom_pièce`, `type`, `superficie`, `nb_capteurs`, `id_maison`) VALUES
+(4, 'salon', 'grande', 44, 12, 64),
+(7, 'chambre', 'moyenne', 20, 3, 897),
+(8, 'salon', 'petite', 8, 8, 8),
+(10, 'salon', 'petite', 9, 1, 34),
+(454, 'salon', 'grande', 44, 12, 67);
+
+--
 -- Index pour les tables exportées
 --
+
+--
+-- Index pour la table `administrateur`
+--
+ALTER TABLE `administrateur`
+  ADD PRIMARY KEY (`id_admin`);
 
 --
 -- Index pour la table `capteurs`
