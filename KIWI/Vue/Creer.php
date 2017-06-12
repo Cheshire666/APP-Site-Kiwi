@@ -1,5 +1,7 @@
 <?php session_start();
 require 'client.php';
+
+
 ?>
 
 <body>
@@ -24,7 +26,7 @@ require 'client.php';
             </select><br>
 
             <label>Type de pièce:</label><br>
-            <select name="type">
+            <select name="type_piece">
                 <option value="petite"> Petite </option>
                 <option value="moyenne">Moyenne </option>
                 <option value="grande"> Grande </option>
@@ -43,7 +45,6 @@ require 'client.php';
         </p>
 
     </form>
-
 
 
 </div>

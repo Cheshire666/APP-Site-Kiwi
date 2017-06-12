@@ -16,12 +16,14 @@
     <h1>Piloter son habitation</h1>
 </div>
 <div class="PremièreLigne">
-    <a href="" style="text-decoration: none">
+
+    <a href="luminosite_capteurs.php" style="text-decoration: none">
         <figure>
             <img src="../Image/Luminosité.png" height="150" width="176" class="luminosité"/>
             <figcaption> Luminosité </figcaption>
         </figure>
     </a>
+
     <a href="" style="text-decoration: none">
         <figure><img src="../Image/Humidité.png" height="129" width="114" class="humidité"/>
             <figcaption>Humidité </figcaption>
