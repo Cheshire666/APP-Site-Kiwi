@@ -1,17 +1,23 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.5.2
+-- version 4.6.4
 -- https://www.phpmyadmin.net/
 --
--- Client :  localhost:8889
--- Généré le :  Lun 12 Juin 2017 à 14:55
--- Version du serveur :  5.6.35
--- Version de PHP :  7.0.15
+-- Client :  127.0.0.1
+-- Généré le :  Jeu 15 Juin 2017 à 07:22
+-- Version du serveur :  5.7.14
+-- Version de PHP :  5.6.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
 --
--- Base de données :  `BDD_Kiwi_G`
+-- Base de données :  `bdd_kiwi_g`
 --
 
 -- --------------------------------------------------------
@@ -49,11 +55,22 @@ INSERT INTO `administrateur` (`id_admin`, `nom`, `addresse`, `téléphone`, `mot
 
 CREATE TABLE `capteurs` (
   `id_capteur` int(20) NOT NULL,
-  `type` varchar(30) NOT NULL,
+  `type_capteur` varchar(30) NOT NULL,
   `id_pièce` int(20) NOT NULL,
   `valeurs_relevées` int(60) NOT NULL,
-  `id_hag` int(20) NOT NULL
+  `id_hag` int(20) NOT NULL,
+  `reference` int(20) NOT NULL,
+  `marque` varchar(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `capteurs`
+--
+
+INSERT INTO `capteurs` (`id_capteur`, `type_capteur`, `id_pièce`, `valeurs_relevées`, `id_hag`, `reference`, `marque`) VALUES
+(1, 'luminosité', 1, 147, 3, 111, 'domisep'),
+(2, 'luminosité', 2, 465, 2, 222, 'domisep'),
+(3, 'luminosité', 3, 645, 1, 333, 'domisep');
 
 -- --------------------------------------------------------
 
@@ -100,9 +117,22 @@ CREATE TABLE `donnees` (
   `id_données` int(20) NOT NULL,
   `type` varchar(30) NOT NULL,
   `valeur` int(20) NOT NULL,
-  `date` int(14) NOT NULL,
-  `id_capteur` int(11) NOT NULL
+  `date` datetime(1) NOT NULL,
+  `id_capteur` int(11) NOT NULL,
+  `id_pièce` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `donnees`
+--
+
+INSERT INTO `donnees` (`id_données`, `type`, `valeur`, `date`, `id_capteur`, `id_pièce`) VALUES
+(1, 'luminosité', 456, '2017-06-14 09:33:23.7', 1, 1),
+(2, 'luminosité', 654, '2017-06-14 10:00:00.0', 1, 1),
+(3, 'luminosité', 159, '2017-06-14 08:00:00.0', 2, 2),
+(4, 'luminosité', 951, '2017-06-14 09:00:00.0', 2, 2),
+(5, 'luminosité', 655, '2017-06-14 07:00:00.0', 3, 3),
+(6, 'luminosité', 455, '2017-06-14 13:00:00.0', 3, 3);
 
 -- --------------------------------------------------------
 
@@ -115,6 +145,15 @@ CREATE TABLE `hag` (
   `type` varchar(10) NOT NULL,
   `id_pièce` int(20) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `hag`
+--
+
+INSERT INTO `hag` (`id_hag`, `type`, `id_pièce`) VALUES
+(1, 'hag', 3),
+(2, 'hag', 2),
+(3, 'hag', 1);
 
 -- --------------------------------------------------------
 
@@ -159,11 +198,9 @@ CREATE TABLE `piece` (
 --
 
 INSERT INTO `piece` (`id_pièce`, `nom_pièce`, `type`, `superficie`, `nb_capteurs`, `id_maison`) VALUES
-(4, 'salon', 'grande', 44, 12, 64),
-(7, 'chambre', 'moyenne', 20, 3, 897),
-(8, 'salon', 'petite', 8, 8, 8),
-(10, 'salon', 'petite', 9, 1, 34),
-(454, 'salon', 'grande', 44, 12, 67);
+(1, 'salon', 'grande', 56, 3, 1),
+(2, 'chambre', 'moyenne', 25, 2, 1),
+(3, 'cuisine', 'moyenne', 22, 3, 1);
 
 --
 -- Index pour les tables exportées
@@ -216,3 +253,7 @@ ALTER TABLE `maison`
 --
 ALTER TABLE `piece`
   ADD PRIMARY KEY (`id_pièce`);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -50,13 +50,14 @@ require_once('../Modele/connexion.php');
 <div class="choix_piece">
     <p>
     <form method="post" action="../Controleur/cibleLuminosite.php">
+        <h2>
         <input type="checkbox" name="salon" id="salon" /> <label for="salon">Salon</label>
         <input type="checkbox" name="cuisine" id="cuisine" /> <label for="cuisine">Cuisine</label>
         <input type="checkbox" name="chambre" id="chambre" /> <label for="chambre">Chambre</label>
         <input type="checkbox" name="salle_de_bain" id="salle_de_bain" /> <label for="salle_de_bain">Salle de bain</label>
-        <input type="checkbox" name="toilette" id="toilette" /> <label for="toilette">Toilette</label>
-        <input type="submit" value="Valider"/><br>
-
+            <input type="checkbox" name="toilette" id="toilette" /> <label for="toilette">Toilettes</label></br>
+        <input class="btnVal" type="submit" value="Valider"/><br>
+        </h2>
     </form>
     </p>
 </div>
@@ -65,7 +66,7 @@ require_once('../Modele/connexion.php');
             <thead>
             <tr>
                 <th>
-                    Date
+                     Date
                 </th>
 
                 <th>
@@ -84,7 +85,7 @@ require_once('../Modele/connexion.php');
             </tbody>
 
 
-        </table>
+        </table></div></br>
     </div>
 </div>
 
