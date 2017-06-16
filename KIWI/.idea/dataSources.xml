@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+  <component name="DataSourceManagerImpl" format="xml" hash="71547985">
     <data-source source="LOCAL" name="bdd_kiwi_g@localhost" uuid="ff0ca9f4-fdc4-4f85-873b-d226b43a644a">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
