@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d1bc5c7-2367-449f-b9e8-6a4ad1fd26a6" name="Default" comment="">
+    <list default="true" id="9d1bc5c7-2367-449f-b9e8-6a4ad1fd26a6" name="Default" comment="Page d'accueil aka News - Images qui défilent">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KIWI/Style/PageAccueil.css" afterPath="$PROJECT_DIR$/KIWI/Style/PageAccueil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KIWI/Vue/Creer.php" afterPath="$PROJECT_DIR$/KIWI/Vue/Creer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KIWI/Vue/PageAccueil.php" afterPath="$PROJECT_DIR$/KIWI/Vue/PageAccueil.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,74 +16,36 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MentionLegales.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Vue/MentionLegales.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="Creer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/KIWI/Vue/Creer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="82" column="75" lean-forward="false" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="piloter.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Style/piloter.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="463">
-              <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connexion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Modele/connexion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="3" column="82" lean-forward="false" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="insertion.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Modele/insertion.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            <state relative-caret-position="178">
+              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <marker date="1496411876317" expanded="true" signature="273:429" ph="INSERT INTO piece... " />
+                <marker date="1497637067350" expanded="false" signature="1588:1609" ph="..." />
+                <marker date="1497637067350" expanded="false" signature="1664:1685" ph="..." />
+                <marker date="1497637067350" expanded="false" signature="1836:1857" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Creer.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Vue/Creer.php">
+      <file leaf-file-name="Inscription.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KIWI/Style/Inscription.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="91" column="75" lean-forward="false" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FAQ.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Vue/FAQ.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="53" column="75" lean-forward="false" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Vue/admin.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-5627">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuiSommesNous.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KIWI/Vue/QuiSommesNous.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1122">
+              <caret line="34" column="75" lean-forward="false" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
               <folding />
             </state>
           </provider>
@@ -90,34 +54,96 @@
       <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KIWI/Vue/client.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="462">
+              <caret line="20" column="80" lean-forward="false" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+              <folding>
+                <marker date="1497634385974" expanded="true" signature="363:445" ph="..." />
+                <marker date="1497634385974" expanded="true" signature="363:870" ph="..." />
+                <marker date="1497634385974" expanded="true" signature="363:878" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Contacts.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KIWI/Vue/Contacts.php">
+      <file leaf-file-name="editProfil.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KIWI/Vue/editProfil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="766">
-              <caret line="54" column="75" lean-forward="false" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageAccueil.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PageAccueil.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KIWI/Style/PageAccueil.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="549">
+              <caret line="152" column="14" lean-forward="false" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Formulaire_Inscription.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KIWI/Vue/Formulaire_Inscription.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="948">
+              <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KIWI/Style/admin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4160">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifmdp.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/KIWI/Controleur/modifmdp.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1497013896807" expanded="true" signature="454:510" ph="UPDATE clien... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PageAccueil.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KIWI/Vue/PageAccueil.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="31" column="83" lean-forward="false" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
-              <folding />
+            <state relative-caret-position="1178">
+              <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+                <marker date="1497634720473" expanded="true" signature="422:434" ph="..." />
+                <marker date="1497634720473" expanded="false" signature="1253:1274" ph="..." />
+                <marker date="1497634720473" expanded="false" signature="1340:1361" ph="..." />
+                <marker date="1497634720473" expanded="false" signature="1441:1462" ph="..." />
+                <marker date="1497634720473" expanded="false" signature="1569:1590" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="UPDATE_TYPE" value="MERGE" />
@@ -134,11 +160,24 @@
         <option value="$PROJECT_DIR$/KIWI/Vue/MentionLegales.php" />
         <option value="$PROJECT_DIR$/KIWI/Vue/Contacts.php" />
         <option value="$PROJECT_DIR$/KIWI/Vue/FAQ.php" />
-        <option value="$PROJECT_DIR$/KIWI/Vue/PageAccueil.php" />
         <option value="$PROJECT_DIR$/KIWI/Vue/piloter.php" />
         <option value="$PROJECT_DIR$/KIWI/Vue/QuiSommesNous.php" />
-        <option value="$PROJECT_DIR$/KIWI/Modele/connexion.php" />
         <option value="$PROJECT_DIR$/KIWI/Style/piloter.css" />
+        <option value="$PROJECT_DIR$/KIWI/Vue/SOSadmin.php" />
+        <option value="$PROJECT_DIR$/KIWI/Modele/connexion.php" />
+        <option value="$PROJECT_DIR$/FormulaireInscription.html" />
+        <option value="$PROJECT_DIR$/KIWI/Vue/FormulaireInsciprtion.css" />
+        <option value="$PROJECT_DIR$/KIWI/Vue/FormulaireInscription.html" />
+        <option value="$PROJECT_DIR$/KIWI/Vue/admin.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.750/slideshow.js" />
+        <option value="$PROJECT_DIR$/KIWI/Vue/ImagesDefilantes.js" />
+        <option value="$PROJECT_DIR$/KIWI/Style/ImagesDefilantes.css" />
+        <option value="$PROJECT_DIR$/KIWI/Style/ImagesDefilantes.js" />
+        <option value="$USER_HOME$/Downloads/jquery.js" />
+        <option value="$PROJECT_DIR$/KIWI/Vue/jquery.js" />
+        <option value="$PROJECT_DIR$/KIWI/Style/Diapo.js" />
+        <option value="$PROJECT_DIR$/KIWI/Style/PageAccueil.css" />
+        <option value="$PROJECT_DIR$/KIWI/Vue/PageAccueil.php" />
         <option value="$PROJECT_DIR$/KIWI/Vue/Creer.php" />
       </list>
     </option>
@@ -154,9 +193,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-55" />
-    <option name="y" value="4" />
-    <option name="width" value="2750" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2762" />
     <option name="height" value="1770" />
   </component>
   <component name="ProjectView">
@@ -174,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,12 +313,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="termi&#9;ACTION&#9;ActivateTerminalToolWindow" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\APP-Site-Kiwi\KIWI\Style" />
+      <recent name="C:\wamp\www\APP-Site-Kiwi\KIWI\Vue" />
+    </key>
   </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
@@ -297,14 +344,23 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/.idea/dataSources.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/.idea/misc.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/.idea/modules.xml</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/BDD_KIWI_G.sql</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Modele/connexion.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/Contacts.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Modele/deconnexion.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Style/admin.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Style/luminosité.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Style/piloter.css</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/Creer.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/FAQ.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/MentionLegales.php</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/PageAccueil.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/QuiSommesNous.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/SOSadmin.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/admin.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/client.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/luminosite_capteurs.php</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/piloter.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -313,8 +369,10 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/.idea/KIWI.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/MentionLegales.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Controleur/ajout.php</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Image/house.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Style/Inscription.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/Formulaire_Inscription.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -322,7 +380,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="true" />
           <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/KIWI/Vue/Jobs.php</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Restored" />
@@ -456,6 +513,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -492,7 +555,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1496301335046</updated>
-      <workItem from="1496301336597" duration="14530000" />
+      <workItem from="1496301336597" duration="38581000" />
+      <workItem from="1497552377268" duration="5924000" />
+      <workItem from="1497619243194" duration="14785000" />
     </task>
     <task id="LOCAL-00001" summary="FAQ et Jobs">
       <created>1496406069394</created>
@@ -529,33 +594,39 @@
       <option name="project" value="LOCAL" />
       <updated>1496413822586</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="ml">
+      <created>1496414005663</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1496414005664</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14530000" />
+    <option name="totallyTimeSpent" value="59290000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-55" y="4" width="2750" height="1770" extended-state="0" />
-    <editor active="true" />
+    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1630117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969853" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.49853802" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32936507" sideWeight="0.501462" order="10" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33267197" sideWeight="0.49707603" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969853" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969853" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969853" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -570,18 +641,123 @@
     <MESSAGE value="merde" />
     <MESSAGE value="Mentions legales espace" />
     <MESSAGE value="type pmg" />
-    <option name="LAST_COMMIT_MESSAGE" value="type pmg" />
+    <MESSAGE value="ml" />
+    <MESSAGE value="Page d'accueil aka News - Images qui défilent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page d'accueil aka News - Images qui défilent" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/cibleCreation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1497511079507" expanded="true" signature="257:447" ph="INSERT INTO piece... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/Creer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <marker date="1497637067350" expanded="false" signature="1588:1609" ph="..." />
+            <marker date="1497637067350" expanded="false" signature="1664:1685" ph="..." />
+            <marker date="1497637067350" expanded="false" signature="1836:1857" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/PageAccueil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <marker date="1497634720473" expanded="true" signature="422:434" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1253:1274" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1340:1361" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1441:1462" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1569:1590" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/cibleLuminosite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497511079507" expanded="true" signature="145:232" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="607:696" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="1071:1160" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="1541:1636" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="2012:2102" ph="SELECT * FRO... donnees" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/modifmdp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497013896807" expanded="true" signature="454:510" ph="UPDATE clien... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="23" column="53" lean-forward="false" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+          <folding>
+            <marker date="1497634385970" expanded="true" signature="426:763" ph="..." />
+            <marker date="1497634385970" expanded="true" signature="695:763" ph="..." />
+            <marker date="1497634385970" expanded="true" signature="778:840" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/FAQ.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4719">
+          <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/FAQ.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Modele/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/PageAccueil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4785">
+          <caret line="145" column="4" lean-forward="true" selection-start-line="144" selection-start-column="24" selection-end-line="145" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KIWI/Style/NosProduits.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,41 +766,18 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1496309038980" expanded="true" signature="95:159" ph="SELECT nom,m... client" />
-            <marker date="1496309038980" expanded="true" signature="327:399" ph="SELECT nom,m... administrateur" />
+            <marker date="1497013896814" expanded="true" signature="95:159" ph="SELECT nom,m... client" />
+            <marker date="1497013896814" expanded="true" signature="327:399" ph="SELECT nom,m... administrateur" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/cible.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="25" column="51" lean-forward="false" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/creation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Vue/Jobs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="36" column="73" lean-forward="false" selection-start-line="36" selection-start-column="73" selection-end-line="36" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/creation.php" />
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/Jobs.php" />
     <entry file="file://$PROJECT_DIR$/KIWI/Vue/non-client.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,15 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
           <caret line="65" column="75" lean-forward="false" selection-start-line="65" selection-start-column="75" selection-end-line="65" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Vue/QuiSommesNous.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="34" column="75" lean-forward="false" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,41 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="463">
           <caret line="211" column="12" lean-forward="false" selection-start-line="211" selection-start-column="12" selection-end-line="211" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Modele/connexion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="3" column="82" lean-forward="false" selection-start-line="3" selection-start-column="82" selection-end-line="3" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Modele/insertion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="24" lean-forward="true" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
-          <folding>
-            <marker date="1496411876317" expanded="true" signature="273:429" ph="INSERT INTO piece... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Vue/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Vue/client.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="73" lean-forward="false" selection-start-line="12" selection-start-column="73" selection-end-line="12" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -690,39 +799,265 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="766">
           <caret line="54" column="75" lean-forward="false" selection-start-line="54" selection-start-column="75" selection-end-line="54" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Vue/Creer.php">
+    <entry file="file://$PROJECT_DIR$/KIWI/Modele/insertion.php" />
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/QuiSommesNous.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="91" column="75" lean-forward="false" selection-start-line="91" selection-start-column="75" selection-end-line="91" selection-end-column="75" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KIWI/Vue/FAQ.php">
+    <entry file="file://$PROJECT_DIR$/KIWI/Modele/fonction.php" />
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/SOSadmin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="53" column="75" lean-forward="false" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
-          <folding />
+        <state relative-caret-position="462">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KIWI/Vue/MentionLegales.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="82" column="75" lean-forward="false" selection-start-line="82" selection-start-column="75" selection-end-line="82" selection-end-column="75" />
+        <state relative-caret-position="72">
+          <caret line="18" column="72" lean-forward="true" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/cible.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kiwi-Nos produits.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Kiwi-Nos produits.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/FAQ.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/FAQ.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4719">
+          <caret line="143" column="1" lean-forward="false" selection-start-line="143" selection-start-column="1" selection-end-line="143" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/FormulaireInsciprtion.css" />
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/FormulaireInscription.html" />
+    <entry file="file://$PROJECT_DIR$/KIWI/Modele/connexion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/cibleCreation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <marker date="1497511079507" expanded="true" signature="257:447" ph="INSERT INTO piece... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/cibleLuminosite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497511079507" expanded="true" signature="145:232" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="607:696" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="1071:1160" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="1541:1636" ph="SELECT * FRO... donnees" />
+            <marker date="1497511079507" expanded="true" signature="2012:2102" ph="SELECT * FRO... donnees" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.750/slideshow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="20" column="53" lean-forward="false" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
+          <folding>
+            <marker date="1497634385970" expanded="true" signature="426:763" ph="..." />
+            <marker date="1497634385970" expanded="true" signature="695:763" ph="..." />
+            <marker date="1497634385970" expanded="true" signature="778:840" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.768/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="98" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/ImagesDefilantes.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="20" column="80" lean-forward="false" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
+          <folding>
+            <marker date="1497634385974" expanded="true" signature="363:445" ph="..." />
+            <marker date="1497634385974" expanded="true" signature="363:870" ph="..." />
+            <marker date="1497634385974" expanded="true" signature="363:878" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/editProfil.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/QuiSommesNous.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1122">
+          <caret line="34" column="75" lean-forward="false" selection-start-line="34" selection-start-column="75" selection-end-line="34" selection-end-column="75" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jquery-3.2.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="734">
+          <caret line="7419" column="0" lean-forward="true" selection-start-line="7419" selection-start-column="0" selection-end-line="7419" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10229" column="42" lean-forward="true" selection-start-line="10229" selection-start-column="42" selection-end-line="10229" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/Diapo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Controleur/modifmdp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1497013896807" expanded="true" signature="454:510" ph="UPDATE clien... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/PageAccueil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="549">
+          <caret line="152" column="14" lean-forward="false" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/KIWI/Vue/PageAccueil.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="31" column="83" lean-forward="false" selection-start-line="31" selection-start-column="83" selection-end-line="31" selection-end-column="83" />
+        <state relative-caret-position="1178">
+          <caret line="54" column="14" lean-forward="true" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#p#0;n#div#1;n#html#0;n#!!top" expanded="true" />
+            <marker date="1497634720473" expanded="true" signature="422:434" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1253:1274" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1340:1361" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1441:1462" ph="..." />
+            <marker date="1497634720473" expanded="false" signature="1569:1590" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/Inscription.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5627">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Style/admin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4160">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/Formulaire_Inscription.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="32" column="20" lean-forward="true" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/KIWI/Vue/Creer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1497637067350" expanded="false" signature="1588:1609" ph="..." />
+            <marker date="1497637067350" expanded="false" signature="1664:1685" ph="..." />
+            <marker date="1497637067350" expanded="false" signature="1836:1857" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

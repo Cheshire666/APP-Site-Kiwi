@@ -126,14 +126,19 @@ body {background-color: #e7e7e7}
 #ImageNews {
   display: block;
   margin-left: 69.3%;
-  width: 30%;
+
   border-radius: 8px;
 }
 
 .CorpsNews {
   font-family: 'Dosis Light';
-    vertical-align: middle;
+  vertical-align: middle;
   padding-top: 10px;
+}
+
+.CorpsNews img {
+   height: 100%;
+  width: 100%;
 }
 
 .BandeauBas {
@@ -155,3 +160,8 @@ body {background-color: #e7e7e7}
 a {
     color: black;
 }
+
+
+
+
+

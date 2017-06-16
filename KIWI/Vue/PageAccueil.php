@@ -19,15 +19,35 @@
         <link rel="stylesheet" href="../Style/PageAccueil.css" type="text/css">
     </head>
 
-    <body>
+    <div>
+
         <div class="TitreNews">
             <h1>News</h1>
         </div>
+
         <div class="CorpsNews">
-            <img src="../Image/ImageNews.jpg" id="ImageNews"/>Le développement du site avance, merci de nous suivre dans notre aventure. -La rédaction
+                <img src = "../Image/cuisine.jpg"  alt = "Image1" id="active" />
+
         </div>
+
+    </div>
+
+        <script> //images qui défilent
+            var images = ["../Image/cuisine.jpg", "../Image/travaux.jpg", "../Image/ville.jpg"];
+            var i = 0;
+                setInterval(function () {
+                    document.getElementById('active').src = images[i];
+                    i++;
+                    if (i == 3)
+                        i = 0;
+
+                }, 1500);
+        </script>
+
+
+
         <div class="BandeauBas">
-            <p class="LiensBas"><a href="https://fr.wikipedia.org/wiki/Foire_aux_questions" style="text-decoration: none">FAQ</a>
+            <p class="LiensBas"><a href="../Vue/FAQ.php" style="text-decoration: none">FAQ</a>
                 <a href="../Vue/Contacts.php" style="text-decoration: none">Contact</a>
                 <a href="MentionLegales.php" style="text-decoration: none">MentionsLégales</a></p>
                 <a href="https://facebook.com" style="text-decoration: none"> <img src="../Image/facebook.png" id="LogoFB"> </a>

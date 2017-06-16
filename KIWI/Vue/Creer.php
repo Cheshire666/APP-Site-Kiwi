@@ -7,6 +7,8 @@ require 'client.php';
 <div class="TitreCreation">
     <h1>Création</h1>
 </div>
+
+
 <div class="Corps">
 
     <form method="post" action="../Controleur/cibleCreation.php">
