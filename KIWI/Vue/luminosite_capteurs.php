@@ -1,6 +1,7 @@
 
 <?php session_start();
-require ('../Modele/connexion.php');
+require_once('../Modele/connexion.php');
+
 ?>
 
 <!DOCTYPE html>
@@ -46,47 +47,46 @@ require ('../Modele/connexion.php');
 <div class="TitreNP">
     <h1> Luminosité</h1>
 </div>
-<div class="Corps">
-
+<div class="choix_piece">
+    <p>
+    <form method="post" action="../Controleur/cibleLuminosite.php">
+        <h2>
+        <input type="checkbox" name="salon" id="salon" /> <label for="salon">Salon</label>
+        <input type="checkbox" name="cuisine" id="cuisine" /> <label for="cuisine">Cuisine</label>
+        <input type="checkbox" name="chambre" id="chambre" /> <label for="chambre">Chambre</label>
+        <input type="checkbox" name="salle_de_bain" id="salle_de_bain" /> <label for="salle_de_bain">Salle de bain</label>
+            <input type="checkbox" name="toilette" id="toilette" /> <label for="toilette">Toilettes</label></br>
+        <input class="btnVal" type="submit" value="Valider"/><br>
+        </h2>
+    </form>
+    </p>
+</div>
     <div class = "tab">
         <table>
             <thead>
-                <tr>
-                    <th>
-                    Identifiant du capteur
-                     </th>
-                    <th>
-                    Identifiant de la pièce
-                     </th>
-                     <th>
-                    Valeurs relevées
-                    </th>
+            <tr>
+                <th>
+                     Date
+                </th>
 
-                </tr>
+                <th>
+                    Valeurs relevées
+                </th>
+                <th>
+                    Pièce
+                </th>
+
+            </tr>
             </thead>
             <tbody>
-                <?php
-                $lum= $db->prepare('SELECT * FROM capteurs')or die(print_r($db->errorInfo()));
-                $lum->execute();
-                while ($capteur= $lum->fetch (PDO::FETCH_ASSOC)){
-                    ?> <tr>
-
-                        <th><?php echo $capteur['id_capteur'];?></th>
-                        <th><?php echo $capteur['id_pièce'];?></th>
-                        <th><?php echo $capteur['valeurs_relevées'];?></th>
-
-                    </tr>
-                    <?php
-
-
-
-                } ?>
+            <?php
+            require ('../Controleur/cibleLuminosite.php');
+            ?>
             </tbody>
 
 
-        </table>
+        </table></div></br>
     </div>
-
 </div>
 
 <div class="BandeauBas">
