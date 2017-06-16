@@ -1,9 +1,15 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" href="../Style/piloter.css">
         <div class="Deconnexion">
-            <a href="../Vue/PageAccueil.php"><button type="button" class="btn-deconnexion">Déconnexion</button></a>
+            <form action="../Vue/PageAccueil.php" method="post">
+                <p>
+                    <input type="submit" value="Déconnexion" id="btn-deconnexion"/>
+                </p>
+            </form>
             <p><a href="../Vue/editProfil.php">Mon profil</a></p>
 
         </div>

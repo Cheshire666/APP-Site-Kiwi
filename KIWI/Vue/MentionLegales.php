@@ -20,23 +20,23 @@
             </ul>
         </form>
     </div>
-    </div>
     <div class="Onglets">
         <a  href="QuiSommesNous.php"><button type="button" class="btn-1">Qui sommes-nous ?</button></a>
 
         <?php
 
         if(!isset($_SESSION)) {
-            echo '<button type="button" class="btn-2">Piloter</button></a>';
+            echo '<button type="button" class="btn-2">Piloter</button>';
+            echo '<button type="button" class="btn-3">Création</button>';
         }
 
         else {
             echo '<a  href="piloter.php"><button type="button" class="btn-2">Piloter</button></a>';
+            echo '<a  href="Creer.php"><button type="button" class="btn-3">Création</button></a>';
         }
 
         ?>
 
-        <a  href="Creer.php"><button type="button" class="btn-3">Création</button></a>
     </div>
 </head>
 <body>

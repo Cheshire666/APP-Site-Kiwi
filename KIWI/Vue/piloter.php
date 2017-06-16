@@ -53,14 +53,17 @@
             <figcaption> Modifier </figcaption>
         </figure>
     </a>
-        <input type="image" name="SOS" value="envoyer" src="../Image/SOS.png"/>
-    <?php
-    $compteurSOS = 0;
-    if(isset($_POST['SOS']) AND $_POST['go']=='envoyer') {
-        $compteurSOS +=1;
-    }
-
-    ?>
+    <script>
+        $compteurSOS = 1;
+        function buttonClick() {
+            document.getElementById('btnSOS').value = $compteurSOS++;
+        }
+    </script>
+        <button type="button" onclick="buttonClick()" style="background: none; border: none">
+            <img src="../Image/SOS.png" height="120" width="173" class="SOS" />
+                <figcaption>SOS</figcaption>
+            <input type="text" id="btnSOS">
+        </button>
 
 </div>
 
