@@ -2,7 +2,7 @@
 require 'client.php';
 
 ?>
-
+<title>Kiwi - Création</title>
 <body>
 <div class="TitreCreation">
     <h1>Création</h1>

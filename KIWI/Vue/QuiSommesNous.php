@@ -1,4 +1,15 @@
-<?php session_start(); ?>
+<?php
+
+session_start();
+if(isset($_SESSION['nom'])) {
+    include 'client.php';
+}
+
+else {
+    include 'non-client.php';
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,17 +19,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="../Image/kiwi.png"/>
     <link rel="stylesheet" href="../Style/QuiSommesNous.css">
 
-    <?php
-
-    if(!isset($_SESSION)) {
-        include 'non-client.php';
-    }
-
-    else {
-        include 'client.php';
-    }
-
-    ?>
 
 </head>
 <body>

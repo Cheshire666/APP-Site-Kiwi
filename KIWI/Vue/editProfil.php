@@ -10,9 +10,9 @@ require 'client.php';
     <link rel="stylesheet" href="../Style/editProfil.css" type="text/css">
 </head>
 
-<body>
+<h1>
 
-<?php echo '<h1>Nom : '.$_SESSION['nom']; ?><br><br>
+<?php echo 'Nom : '.$_SESSION['nom']; ?> </h1><br><br>
 
     <script type="text/javascript">
         function bascule(id)
@@ -36,5 +36,10 @@ require 'client.php';
         </ul>
     </form>
 </div>
-</body>
+
+<div id="headerSuppr" onload="visibility = 'hidden'">
+    <form method=post action="../Controleur/supprcompte.php">
+        <input type="submit" name="delete" value="Supprimer mon compte" style="background-color: #3F95AD; border-radius: 8px; font-family: 'Dosis Medium'; font-size: large" onclick="bascule('headerSuppr')">
+    </form>
+</div>
 

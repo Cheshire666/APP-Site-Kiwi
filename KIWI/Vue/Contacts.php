@@ -1,44 +1,24 @@
-<?php session_start(); ?>
+<?php
+
+session_start();
+if(isset($_SESSION['nom'])) {
+    include 'client.php';
+}
+
+else {
+    include 'non-client.php';
+}
+
+?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Kiwi- Contact </title>
     <link rel="shortcut icon" type="image/x-icon" href="../Image/kiwi.png"/>
     <link rel="stylesheet" href="../Style/Contacts.css">
-    <a href="../Vue/PageAccueil.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
-    <div class="Authentification">
-        <form method=post action="../Controleur/cible.php">
-            <h1>Espace Client</h1>
-            <ul>
-                <label>Login</label>
-                <input type="text" name="pseudo" id="pseudo">
-                <label>Mot de passe</label>
-                <input type="password" name="mdp" id="mdp">
-                <input type="submit" name="submit" value="Se connecter">
-            </ul>
-        </form>
-    </div>
-    </div>
-    <div class="Onglets">
-        <a  href="../Vue/QuiSommesNous.php"><button type="button" class="btn-1">Qui sommes-nous ?</button></a>
 
-        <?php
-
-        if(!isset($_SESSION)) {
-            echo '<button type="button" class="btn-2">Piloter</button></a>';
-        }
-
-        else {
-            echo '<a  href="../Vue/piloter.php"><button type="button" class="btn-2">Piloter</button></a>';
-        }
-
-        ?>
-
-        <a  href="Creer.php"><button type="button" class="btn-3">Création</button></a>
-    </div>
-</head>
 <body>
 <div class="TitreNP">
     <h1> Contact </h1>

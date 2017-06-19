@@ -1,11 +1,17 @@
+h1 {
+    font-family: "Dosis Medium";
+    font-size: 150%;
+}
+
 #bouton {
     font-family: "Dosis Medium";
-    font-size: larger;
+    font-size: 150%;
     display: block;
 }
 
 #header {
     font-family: "Dosis Medium";
+    font-size: 150%;
 
 }
 

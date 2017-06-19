@@ -1,4 +1,5 @@
 <?php
+session_start();
 $_SESSION = array();
 session_destroy();
-header('../Vue/PageAccueil.php');
+header("location: ../Vue/PageAccueil.php");

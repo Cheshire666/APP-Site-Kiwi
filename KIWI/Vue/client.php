@@ -5,11 +5,12 @@
     <head>
         <link rel="stylesheet" href="../Style/piloter.css">
         <div class="Deconnexion">
-            <form action="../Vue/PageAccueil.php" method="post">
+            <form action="../Modele/deconnexion.php" method="post">
                 <p>
                     <input type="submit" value="Déconnexion" id="btn-deconnexion"/>
                 </p>
             </form>
+            <p><?php echo '<p>Bienvenue M./Mme. '.$_SESSION['nom']; ?> <p>
             <p><a href="../Vue/editProfil.php">Mon profil</a></p>
 
         </div>
