@@ -26,7 +26,7 @@
         </div>
 
         <div class="CorpsNews">
-                <img src = "../../images/cuisine.jpg" alt = "Image1" id="active" />
+                <img src = "../Image/cuisine.jpg" alt = "Image1" id="active" />
 
         </div>
 
