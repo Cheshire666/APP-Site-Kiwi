@@ -35,7 +35,7 @@
             <figcaption> Température</figcaption>
         </figure>
     </a>
-    <a href="" style="text-decoration: none">
+    <a href="on_off.php" style="text-decoration: none">
         <figure>
             <img src="../Image/ONOff.png" height="156" width="175" class="onoff"/>
             <figcaption> On/Off </figcaption>
