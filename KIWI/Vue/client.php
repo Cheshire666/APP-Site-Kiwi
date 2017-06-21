@@ -14,7 +14,7 @@
             <p><a href="../Vue/editProfil.php">Mon profil</a></p>
 
         </div>
-        <img src="../Image/Logo_Kiwi.png" id="Logo"/>
+        <a href="../Vue/PageAccueil.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
 
 
         <div class="Onglets">
