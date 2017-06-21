@@ -13,7 +13,6 @@
     <img src="../Image/Logo_Kiwi.png" id="Logo"/>
     <div class="Onglets">
         <a  href="../Vue/Formulaire_Inscription.php"><button type="button" class="btn-1">Inscription d'un client</button></a>
-        <a  href="../Vue/gestion-site.php"><button type="button" class="btn-2">Gestion du site</button></a>
         <a  href="../Vue/SOSadmin.php"><button type="button" class="btn-3">SOS</button></a>
     </div>
 </head>

@@ -51,7 +51,7 @@ body {background-color: #e7e7e7}
 }
 
 .btn-1 {
-    background-color: #3F95AD;
+    background-color: #319cbd;
     border: 0 solid;
     width: 200px;
     height: 70px;
@@ -73,7 +73,7 @@ body {background-color: #e7e7e7}
 }
 
 .btn-2 {
-    background-color: #3F95AD;
+    background-color: #319cbd;
     border: 0 solid;
     width: 200px;
     height: 70px;
@@ -94,7 +94,7 @@ body {background-color: #e7e7e7}
 }
 
 .btn-3 {
-    background-color: #3F95AD;
+    background-color: #319cbd;
     border: 0 solid;
     width: 200px;
     height: 70px;
@@ -125,7 +125,7 @@ body {background-color: #e7e7e7}
     font-family: 'BvdStDenisLight';
     font-size:150%;
     padding-left: 5px;
-    border-bottom: 8px solid #3f95ad;
+    border-bottom: 8px solid #319cbd;
     background-color: #C0C0C0;
 }
 
@@ -133,7 +133,7 @@ body {background-color: #e7e7e7}
     font-family: 'BvdStDenisLight';
     font-size: 200%;
     word-spacing: 80px;
-    border-top: solid #3F95AD;
+    border-top: solid #319cbd;
     text-align: center;
 }
 

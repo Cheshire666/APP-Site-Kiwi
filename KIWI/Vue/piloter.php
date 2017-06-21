@@ -42,17 +42,6 @@
         </figure>
     </a>
 </div>
-<div class="DeuxièmeLigne">
-    <a href="" style="text-decoration: none">
-        <figure><img src="../Image/Stat.png" height="137" width="164" class="stat"/>
-            <figcaption> Statistiques </figcaption>
-        </figure>
-    </a>
-    <a href="" style="text-decoration: none">
-        <figure><img src="../Image/Modifier.png" height="150" width="189" class="modifier"/>
-            <figcaption> Modifier </figcaption>
-        </figure>
-    </a>
     <script>
         $compteurSOS = 1;
         function buttonClick() {
