@@ -1,5 +1,6 @@
+<?php
 
-<?php session_start();
+session_start();
 require_once('../Modele/connexion.php');
 
 ?>
@@ -8,9 +9,9 @@ require_once('../Modele/connexion.php');
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kiwi- Luminosité </title>
+    <title>Kiwi-Humidité </title>
     <link rel="shortcut icon" type="image/x-icon" href="../Image/kiwi.png"/>
-    <link rel="stylesheet" href="../Style/luminosité.css">
+    <link rel="stylesheet" href="../Style/temperature.css">
     <a href="../Vue/PageAccueil.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
     <div class="Authentification">
         <form method=post action="../Controleur/cible.php">
@@ -45,78 +46,48 @@ require_once('../Modele/connexion.php');
 </head>
 <body>
 <div class="TitreNP">
-    <h1> Luminosité</h1>
+    <h1> Humidité</h1>
 </div>
 <div class="choix_piece">
     <p>
-    <form method="post" action="../Controleur/cibleLuminosite.php">
+    <form method="post" action="../Controleur/cibleHumidite.php">
         <h2>
-        <input type="checkbox" name="salon" id="salon" /> <label for="salon">Salon</label>
-        <input type="checkbox" name="cuisine" id="cuisine" /> <label for="cuisine">Cuisine</label>
-        <input type="checkbox" name="chambre" id="chambre" /> <label for="chambre">Chambre</label>
-        <input type="checkbox" name="salle_de_bain" id="salle_de_bain" /> <label for="salle_de_bain">Salle de bain</label>
-            <input type="checkbox" name="toilette" id="toilette" /> <label for="toilette">Toilettes</label></br>
-        <input class="btnVal" type="submit" value="Valider"/><br>
+            <input type="checkbox" name="salon" id="salon" /> <label for="salon">Salon</label>
+            <input type="checkbox" name="cuisine" id="cuisine" /> <label for="cuisine">Cuisine</label>
+            <input type="checkbox" name="chambre" id="chambre" /> <label for="chambre">Chambre</label>
+            <input type="checkbox" name="salle_de_bain" id="salle_de_bain" /> <label for="salle_de_bain">Salle de bain</label>
+            <input type="checkbox" name="toilettes" id="toilettes" /> <label for="toilettes">Toilettes</label></br>
+            <input class="btnVal" type="submit" value="Valider"/><br>
         </h2>
     </form>
     </p>
 </div>
-    <div class = "tab">
-        <table>
-            <thead>
-            <tr>
-                <th>
-                     Date
-                </th>
+<div class = "tab">
+    <table>
+        <thead>
+        <tr>
+            <th>
+                Date
+            </th>
 
-                <th>
-                    Valeurs relevées
-                </th>
-                <th>
-                    Pièce
-                </th>
+            <th>
+                Valeurs relevées
+            </th>
+            <th>
+                Pièce
+            </th>
 
-            </tr>
-            </thead>
-            <tbody>
-            <?php
-            require ('../Controleur/cibleLuminosite.php');
-            ?>
-            </tbody>
-
-
-        </table></div></br>
-    </div>
-</div>
-
-<div class = "tab1">
-        <table>
-            <thead>
-            <tr>
-                <th>
-                    Trame
-                </th>
-                <th>
-                    Date
-                </th>
-                <th>
-                    Valeurs
-                </th>
-
-            </tr>
-            </thead>
-            <tbody>
-
-                <?php
-                require('../Controleur/cibleTrame.php');
-                ?>
+        </tr>
+        </thead>
+        <tbody>
+        <?php
+        require ('../Controleur/cibleHumidite.php');
+        ?>
+        </tbody>
 
 
-</tbody>
+    </table></div></br>
 
-
-</table>
-</div>
 
 
 

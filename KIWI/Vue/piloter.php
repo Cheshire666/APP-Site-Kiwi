@@ -24,24 +24,25 @@
         </figure>
     </a>
 
-    <a href="" style="text-decoration: none">
+    <a href="humidite_capteurs.php" style="text-decoration: none">
         <figure><img src="../Image/Humidité.png" height="129" width="114" class="humidité"/>
             <figcaption>Humidité </figcaption>
         </figure>
     </a>
-    <a href="" style="text-decoration: none">
+    <a href="temperature_capteurs.php" style="text-decoration: none">
         <figure>
             <img src="../Image/Température.png" height="141" width="150" class="température"/>
             <figcaption> Température</figcaption>
         </figure>
     </a>
+    <div class="DeuxièmeLigne">
     <a href="on_off.php" style="text-decoration: none">
         <figure>
             <img src="../Image/ONOff.png" height="156" width="175" class="onoff"/>
             <figcaption> On/Off </figcaption>
         </figure>
     </a>
-</div>
+
     <script>
         $compteurSOS = 1;
         function buttonClick() {
@@ -54,6 +55,7 @@
             <input type="text" id="btnSOS">
         </button>
 
+</div>
 </div>
 
 <div class="BandeauBas">

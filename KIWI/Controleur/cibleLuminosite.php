@@ -1,94 +1,41 @@
 <?php
-require ('../Modele/connexion.php');
-require_once('../Vue/luminosite_capteurs.php');
-
-if (isset($_POST['salon'])){
-    $val= $db->prepare('SELECT * FROM donnees,piece WHERE piece.id_pièce=donnees.id_pièce AND nom_pièce="salon"   ')or die(print_r($db->errorInfo()));
-    $val->execute();
-    while ($tab= $val->fetch (PDO::FETCH_ASSOC)){
-        ?> <tr>
-
-            <th><?php echo $tab['date'];?></th>
-            <th><?php echo $tab['valeur'];?></th>
-            <th><?php echo $tab['nom_pièce'];?></th>
+$ch = curl_init();
+curl_setopt(  $ch,   CURLOPT_URL,  "http://projets-tomcat.isep.fr:8080/appService?ACTION=GETLOG&TEAM=009D");
+curl_setopt($ch, CURLOPT_HEADER, FALSE);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+$data = curl_exec($ch); curl_close($ch);
+$data_tab = str_split($data,33);
 
 
-        </tr>
+
+for($i=0, $size=count($data_tab);$i<$size; $i++) {
+    ?>
+    <tr>
+
+    <?php
+    $trame = $data_tab[$i];
+    ?>
+    <th>
         <?php
 
+        list($t, $o, $r, $c, $n, $v, $a, $x, $year, $month, $day, $hour, $min, $sec) =  sscanf($trame,"%1s%4s%1s%1s%2s%4s%4s%2s%4s%2s%2s%2s%2s%2s");
+        echo("$day/$month/$year  $hour:$min:$sec");?>
+    </th>
+    <th><?php
+        echo ("$v")
+        ?></th>
+    <th><?php
 
+        echo "Salon";
+        ?>
+    </th></tr><?php
 
-    }
 }
-if (isset($_POST['cuisine'])){
-    $val= $db->prepare('SELECT * FROM donnees,piece WHERE piece.id_pièce=donnees.id_pièce AND nom_pièce="cuisine"   ')or die(print_r($db->errorInfo()));
-    $val->execute();
-    while ($tab= $val->fetch (PDO::FETCH_ASSOC)){
-        ?> <tr>
-
-            <th><?php echo $tab['date'];?></th>
-            <th><?php echo $tab['valeur'];?></th>
-            <th><?php echo $tab['nom_pièce'];?></th>
-
-
-        </tr>
-        <?php
 
 
 
-    }
-}
-if (isset($_POST['chambre'])){
-    $val= $db->prepare('SELECT * FROM donnees,piece WHERE piece.id_pièce=donnees.id_pièce AND nom_pièce="chambre"   ')or die(print_r($db->errorInfo()));
-    $val->execute();
-    while ($tab= $val->fetch (PDO::FETCH_ASSOC)){
-        ?> <tr>
-
-            <th><?php echo $tab['date'];?></th>
-            <th><?php echo $tab['valeur'];?></th>
-            <th><?php echo $tab['nom_pièce'];?></th>
-
-
-        </tr>
-        <?php
 
 
 
-    }
-}
-if (isset($_POST['salle_de_bain'])){
-    $val= $db->prepare('SELECT * FROM donnees,piece WHERE piece.id_pièce=donnees.id_pièce AND nom_pièce="salle_de_bain"   ')or die(print_r($db->errorInfo()));
-    $val->execute();
-    while ($tab= $val->fetch (PDO::FETCH_ASSOC)){
-        ?> <tr>
-
-            <th><?php echo $tab['date'];?></th>
-            <th><?php echo $tab['valeur'];?></th>
-            <th><?php echo $tab['nom_pièce'];?></th>
 
 
-        </tr>
-        <?php
-
-
-
-    }
-}
-if (isset($_POST['toilette'])){
-    $val= $db->prepare('SELECT * FROM donnees,piece WHERE piece.id_pièce=donnees.id_pièce AND nom_pièce="toilette"   ')or die(print_r($db->errorInfo()));
-    $val->execute();
-    while ($tab= $val->fetch (PDO::FETCH_ASSOC)){
-        ?> <tr>
-
-            <th><?php echo $tab['date'];?></th>
-            <th><?php echo $tab['valeur'];?></th>
-            <th><?php echo $tab['nom_pièce'];?></th>
-
-
-        </tr>
-        <?php
-
-
-
-    }
-}
