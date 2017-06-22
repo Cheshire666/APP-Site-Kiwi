@@ -1,8 +1,10 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
 
         <?php
-        if(!isset($_SESSION)) {
+        if(!isset($_SESSION['nom'])) {
             echo '<title>Kiwi - Accueil</title>';
             include('non-client.php');
         }

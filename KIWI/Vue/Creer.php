@@ -27,7 +27,7 @@ require 'client.php';
             </select><br>
 
             <label>Type de pièce:</label>
-            <select name="type_piece">
+            <select name="type">
                 <option value="petite"> Petite </option>
                 <option value="moyenne">Moyenne </option>
                 <option value="grande"> Grande </option>

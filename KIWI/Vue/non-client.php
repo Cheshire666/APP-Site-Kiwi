@@ -17,7 +17,7 @@
 
     <div class="Onglets">
         <a  href="../Vue/QuiSommesNous.php"><button type="button" class="btn-1">Qui sommes-nous ?</button></a>
-        <button type="button" class="btn-2">Piloter</button>
-        <button type="button" class="btn-3">Création</button>
+        <button type="button" class="btn-2" onmouseover="this.style.border='4px solid #FF0000';" onmouseout="this.style.border='';this.style.background='';this.style.color='';">Piloter</button>
+        <button type="button" class="btn-3" onmouseover="this.style.border='4px solid #FF0000';" onmouseout="this.style.border='';this.style.background='';this.style.color='';">Création</button>
     </div>
     </html>
