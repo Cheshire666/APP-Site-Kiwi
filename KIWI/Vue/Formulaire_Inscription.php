@@ -9,7 +9,7 @@ require_once '../Controleur/ajout.php'?>
     <link rel="stylesheet" href="../Style/Inscription.css" type="text/css">
     <title>Kiwi - Formulaire d'Inscription</title>
     <div class="Deconnexion">
-        <a  href="../Vue/PageAccueil.php"><button type="button" class="btn-deconnexion">Déconnexion</button></a>
+        <a  href="../Modele/deconnexion.php"><button type="button" class="btn-deconnexion">Déconnexion</button></a>
     </div>
     <a href="../Vue/admin.php"><img src="../Image/Logo_Kiwi.png" id="Logo"/></a>
     <div class="Onglets">

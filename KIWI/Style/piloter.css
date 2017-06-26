@@ -180,10 +180,10 @@ figcaption{
 }
 
 .PremièreLigne{
-    margin-left: 25%;
+    margin-left: 22%;
 }
 .DeuxièmeLigne{
-    margin-left:12% ;
+    margin-left:29% ;
 }
 .luminosité {
     position: relative;
@@ -201,16 +201,6 @@ figcaption{
 
 }
 .onoff {
-    position: relative;
-    display: block;
-
-}
-.stat {
-    position: relative;
-    display: block;
-
-}
-.modifier {
     position: relative;
     display: block;
 

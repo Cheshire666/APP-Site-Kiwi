@@ -15,3 +15,5 @@ function mdpadmin($db,$identifiant) {
     $result = $reponse->fetch(PDO::FETCH_ASSOC);
     return $result;
 }
+
+

@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../Style/admin.css" type="text/css">
     <title>Kiwi - Administrateur</title>
     <div class="Deconnexion">
-        <a  href="../Vue/PageAccueil.php"><button type="button" class="btn-deconnexion">Déconnexion</button></a>
+        <a  href="../Modele/deconnexion.php"><button type="button" class="btn-deconnexion">Déconnexion</button></a>
     </div>
     <img src="../Image/Logo_Kiwi.png" id="Logo"/>
     <div class="Onglets">
