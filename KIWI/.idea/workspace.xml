@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6eee4b17-c652-47d6-a808-5bd7f15a328b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controleur/cibleSOS.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Controleur/cibleSOSadmin.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Modele/utilisateurs.php" afterPath="$PROJECT_DIR$/Modele/utilisateurs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/admin.css" afterPath="$PROJECT_DIR$/Style/admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Style/piloter.css" afterPath="$PROJECT_DIR$/Style/piloter.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/Formulaire_Inscription.php" afterPath="$PROJECT_DIR$/Vue/Formulaire_Inscription.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/SOSadmin.php" afterPath="$PROJECT_DIR$/Vue/SOSadmin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/admin.php" afterPath="$PROJECT_DIR$/Vue/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Vue/piloter.php" afterPath="$PROJECT_DIR$/Vue/piloter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/BDD_KIWI_G.sql" afterPath="$PROJECT_DIR$/BDD_KIWI_G.sql" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -489,7 +481,7 @@
       <workItem from="1498045575484" duration="7316000" />
       <workItem from="1498422624225" duration="417000" />
       <workItem from="1498484423964" duration="17079000" />
-      <workItem from="1498505550076" duration="67000" />
+      <workItem from="1498505550076" duration="182000" />
     </task>
     <task id="LOCAL-00001" summary="Code de nouveau fonctionnel !">
       <created>1496302323672</created>
@@ -561,11 +553,18 @@
       <option name="project" value="LOCAL" />
       <updated>1498123642230</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Fonction SOS + correction divers bugs">
+      <created>1498505642879</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1498505642879</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92929000" />
+    <option name="totallyTimeSpent" value="93044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="722" extended-state="6" />
@@ -634,7 +633,8 @@
     <MESSAGE value="Màj du 19/06. Correction (partielle) du bug de connexion/déconnexion" />
     <MESSAGE value="Remise en place du chemin vers l'accueil au clic sur le logo" />
     <MESSAGE value="Màj du 22/06. Messages d'erreurs non fonctionnels pour l'inscription" />
-    <option name="LAST_COMMIT_MESSAGE" value="Màj du 22/06. Messages d'erreurs non fonctionnels pour l'inscription" />
+    <MESSAGE value="Fonction SOS + correction divers bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fonction SOS + correction divers bugs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -863,6 +863,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="185" column="18" lean-forward="false" selection-start-line="185" selection-start-column="18" selection-end-line="185" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
